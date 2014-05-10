@@ -2,7 +2,7 @@
 
 Clone of 2048 with undo/redo and branching in ClojureScript with Om.
 
-Can be played at [rtgkom.dk](http://www.rtgkom.dk/~andreashf11/projects/twotoeleven/
+Can be played at [rtgkom.dk](http://www.rtgkom.dk/~andreashf11/projects/twotoeleven/)
 
 ## License
 
