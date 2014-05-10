@@ -1,0 +1,88 @@
+#wrapper {
+    text-align: center;
+}
+
+.active {
+    box-shadow: 0 0 2px rgba(0, 0, 255, 1);
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 255, 1);
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 255, 1);
+    border: 1px solid rgba(0,0,255, 0.8);
+}
+
+.board-header {
+    font-size: 10pt;
+}
+
+.delete {
+    float: right;
+}
+
+.delete:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.main-score {
+    font-size: 300%;
+}
+
+.mini-score {
+    float: left;
+}
+
+.main-cell {
+    display: inline-block;
+    border: 2px solid black;
+    font-size: 50px;
+    line-height: 110px;
+    text-align: center;
+    color: black;
+    width: 110px;
+    height: 110px;
+}
+
+.minis {
+    margin-top: 20px;
+    display: block;
+    white-space: nowrap;
+    height: 170px;
+    overflow: scroll;
+    text-align: left;
+}
+
+.mini-board {
+    display: inline-block;
+    margin-right: 28px;
+    margin-bottom: 28px;
+}
+
+.mini-cell {
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: black;
+    width: 36px;
+    height: 36px;
+}
+
+._empty {
+    color: white;
+}
+
+._2 {
+    color: red;
+}
+
+._4 {
+    color: blue;
+}
+
+._8 {
+    color: green;
+}
+
+._16 {
+    color: purple;
+}
