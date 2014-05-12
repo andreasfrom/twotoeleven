@@ -4,6 +4,8 @@ Clone of 2048 with undo/redo and branching in ClojureScript with Om.
 
 Can be played at [rtgkom.dk](http://www.rtgkom.dk/~andreashf11/projects/twotoeleven/)
 
+Source code formatted with [Marginalia](https://github.com/gdeer81/marginalia) at [rtgkom.dk](http://www.rtgkom.dk/~andreashf11/projects/twotoeleven/uberdoc.html)
+
 ## License
 
 Copyright © 2014 Andreas H. From
