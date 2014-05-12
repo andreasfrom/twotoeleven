@@ -4,25 +4,26 @@
             [om.dom :as dom :include-macros true]
             [cljs.core.async :refer [put! chan <! >!]]))
 
-;;; Debugging
+;; ## Debugging
 
 (enable-console-print!)
 (def p (fn [x] (println x) x))
 
-;;; Utilities
+;; ## Utilities
 
 (def reversev (comp vec reverse))
 
 (def transpose
   "Turn the columns of a matrix into rows:
-     |
-     v
-   [[1 2 3]      ->[[1 1 1]
-    [1 2 3]   =>    [2 2 2]
-    [1 2 3]]        [3 3 3]]"
+
+         |
+         v
+       [[1 2 3]      ->[[1 1 1]
+        [1 2 3]   =>    [2 2 2]
+        [1 2 3]]        [3 3 3]]"
   (partial apply mapv vector))
 
-;;; Game Logic
+;; ## Game Logic
 
 (def empty-tile 0)
 (def empty-tile? (partial = empty-tile))
@@ -99,7 +100,7 @@
     (when-not (= new-board board)
       (update-in new [:board] add-tile))))
 
-;;; Game UI
+;; ## Game UI
 
 (def dirs
   "Maps arrow-key keycodes to directions."
